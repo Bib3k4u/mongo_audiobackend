@@ -13,7 +13,7 @@ app.use(cors());
 
 // Connect to MongoDB Atlas
 // Connect to MongoDB Atlas
-mongoose.connect('mongodb+srv://baba:baba123@cluster0.gaaho0t.mongodb.net/audios', {
+mongoose.connect('mongodb+srv://baba:baba123@cluster0.gaaho0t.mongodb.net/test', {
     useNewUrlParser: true,
     useUnifiedTopology: true
 })
